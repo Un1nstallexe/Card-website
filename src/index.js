@@ -1,14 +1,35 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import App from './routes/root/App';
+import Minigeo from "./routes/minigeo/App";
 import reportWebVitals from './reportWebVitals';
-import "bootstrap";
+import Calc from "./routes/calculator/App"
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App/>,
+    errorElement:<h1>404 not found</h1>
+  },
+  {
+    path:"/mini-geoguessr",
+    element:<Minigeo/>
+  },
+  {
+    path:"/react-calculator",
+    element:<Calc/>
+  }
+]);
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 

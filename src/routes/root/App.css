@@ -1,0 +1,23 @@
+@import url("bootstrap");
+
+.App {
+    font-family: 'JetBrains mono', monospace;
+}
+
+.container {
+    margin: 0 auto;
+    padding:0 30px;
+    max-width:1000px;
+}
+
+.container-flex {
+    flex-wrap:wrap;
+    display:flex;
+    justify:space-around;
+    align-items: space-around;
+    margin: 0 auto;
+}
+
+.container-flex-element {
+    flex:1;
+}

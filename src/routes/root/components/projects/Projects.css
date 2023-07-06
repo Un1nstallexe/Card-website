@@ -1,0 +1,14 @@
+.my-projects-block {
+    padding-top: 40px;
+    background: linear-gradient(53deg, rgba(28,90,103,1) 0%, rgba(126,176,187,1) 100%); 
+}
+.projects-block-header {
+    color:#fff;
+    margin-bottom: 50px;
+}
+
+@media (max-width:800px) {
+    .projects-block-header {
+        text-align: center;
+    }
+}

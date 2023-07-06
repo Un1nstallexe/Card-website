@@ -1,0 +1,27 @@
+.about-me-text {
+    flex:1;
+    padding-top: 20px;
+}
+.about-me-img-divider {
+    flex:1;
+}
+
+.about-me-img {
+    width:300px;
+    display: block;
+    margin: 0 auto;
+    filter: contrast(150%) grayscale(50%);
+}
+
+.about-me-divider {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: linear-gradient(0deg, rgba(11,56,128,1) 0%, rgba(41,129,156,1) 100%);
+    color:#fff;
+}
+
+@media (max-width:800px) {
+    .about-me-header {
+        text-align: center;
+    }
+}

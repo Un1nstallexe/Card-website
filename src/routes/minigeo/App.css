@@ -1,0 +1,9 @@
+path {
+    stroke: #6e6e6e;
+    /*stroke-width:0.5px;*/
+}
+
+.minigeo {
+    background-color: #000;
+    position:relative;
+}
