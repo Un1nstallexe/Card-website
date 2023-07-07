@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Card-website/static/css/main.283a3746.css",
-    "main.js": "/Card-website/static/js/main.1a738d28.js",
+    "main.js": "/Card-website/static/js/main.c560dc3c.js",
     "static/js/787.1ed0c42c.chunk.js": "/Card-website/static/js/787.1ed0c42c.chunk.js",
     "static/media/world.svg": "/Card-website/static/media/world.5b7e359a8de1feca3a65a724eecb57cd.svg",
     "static/media/minigeo.png": "/Card-website/static/media/minigeo.05ebf1843c4a8b2ce56b.png",
@@ -13,11 +13,11 @@
     "static/media/redux.png": "/Card-website/static/media/redux.b3b939c66aecf7d53967.png",
     "index.html": "/Card-website/index.html",
     "main.283a3746.css.map": "/Card-website/static/css/main.283a3746.css.map",
-    "main.1a738d28.js.map": "/Card-website/static/js/main.1a738d28.js.map",
+    "main.c560dc3c.js.map": "/Card-website/static/js/main.c560dc3c.js.map",
     "787.1ed0c42c.chunk.js.map": "/Card-website/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.283a3746.css",
-    "static/js/main.1a738d28.js"
+    "static/js/main.c560dc3c.js"
   ]
 }
